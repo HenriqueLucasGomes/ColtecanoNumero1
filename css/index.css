@@ -26,7 +26,8 @@
     color:white;
     font-size: 100px;
     padding-top: 6%;
-    padding-bottom: 6%;
+    padding-bottom: 15%;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
 
 
@@ -38,9 +39,11 @@
 
 .autores {
 
-    bottom: 0;
+    bottom: 0px;
     position: absolute;
     color: white;
+    margin-left: 35%;
+    /* text-align: center; */
 }
 
 .bt{
