@@ -1,14 +1,32 @@
-body{
-    /* background-image: url(coltec1.jpg); */
+.index{
+    background-image: url(../img/coltec3.jpg);
+    /* background-size: cover; */
+    background-position: center;
     background-repeat: no-repeat;
+
     background-size: cover;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;*/
 }
+
+.registro{
+    background-image: url(../img/coltec2.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}   
 #titulo{
     text-align: center;
     font-family:'Arial Narrow';
     font-weight: bold;
-    color:green;
-    font-size: 100px
+    color:white;
+    font-size: 100px;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 
@@ -18,22 +36,18 @@ body{
     left: 40.84%;
 }
 
-#ou{
-    position: absolute;
-    top: 60%;
-    left: 49.5%;
-    font-size: 30px;
-    font-family:'Arial Narrow';
-    font-weight: bold;
-    color:blue;
+.autores {
 
+    bottom: 0;
+    position: absolute;
+    color: white;
 }
 
 .bt{
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
-	font-size: 1.2em;
+	font-size: 50px;
 	cursor: pointer;
 	margin: 0;
 	margin-top: -3px;
@@ -47,6 +61,20 @@ body{
     margin: 10px 0px;
     position: absolute;
     top: 50%;
-    left: 40.84%;
-    
+    left: 40.84%;   
 }
+
+.logo {
+
+    width: 250px;
+    height: 250px;
+    margin-left: 20%; 
+    margin-top: 50px;
+}
+
+/*.jumbotron {
+
+    background-image: url(../img/coltec3.jpg);
+    background-size: cover;
+    background-position: center;
+}*/
