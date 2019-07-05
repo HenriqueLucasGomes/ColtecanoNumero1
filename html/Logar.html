@@ -1,39 +1,51 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
 
-  	<meta charset="utf-8">
+    <meta charset="utf-8">
 
-  	<title>
-  		Conta nova
-  	</title>
+    <title>
+        Conta nova
+    </title>
 
-  	<meta name="author" content="Guilherme Augusto Anício Drummond do Nascimento">
-  	<meta name="author" content="Filipe Arthur Ferreira Silva">
+    <meta name="author" content="Guilherme Augusto Anício Drummond do Nascimento">
+    <meta name="author" content="Filipe Arthur Ferreira Silva">
     <meta name="author" content="Henrique Dantas Pighini">
 
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" href="img/logo.png" type="image/x-icon" />
     <!-- comentario -->
-    
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        setInterval(function () {
+            $("#tabela").css("height", $(window).height())
+        }, 100);
+    </script>
+
+</head>
   <body class="registro">
     <div class="row">
       <div class="col-4"></div>
       <div class="container text-center d-flex col-4 align-middle">
-      	<div class="jumbotron bg-dark text-light">
-          <label>Login:</label>
-          <input type="text" name="login" placeholder="Digite seu login"><br><br>
+          <table>
+              <tr>
+                  <td>
+                      <div class="jumbotron bg-dark text-light">
+                          <label>Login:</label>
+                          <input type="text" name="login" placeholder="Digite seu login"><br><br>
 
-          <label>Senha:</label>
-          <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
+                          <label>Senha:</label>
+                          <input type="password" name="senha" placeholder="Digite sua senha"><br><br>
 
 
-          <input type="reset" value="Limpar">
+                          <input type="reset" value="Limpar">
 
-          <input type="submit" value="Enviar">
-        </div>
+                          <input type="submit" value="Enviar">
+                      </div>
+                  </td>
+              </tr>
+          </table>
       </div>
       <div class="col-4"></div>
     </div>
